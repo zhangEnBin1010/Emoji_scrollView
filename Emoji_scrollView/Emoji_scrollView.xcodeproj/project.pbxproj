@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1F5ACDD61CF0AC179DBCEF /* libPods-Emoji_scrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0D839A9239BD896FB02DD /* libPods-Emoji_scrollView.a */; };
+		93E696541E71301A00A3C1CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E696531E71301A00A3C1CC /* main.m */; };
+		93E696571E71301A00A3C1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E696561E71301A00A3C1CC /* AppDelegate.m */; };
+		93E6965A1E71301A00A3C1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E696591E71301A00A3C1CC /* ViewController.m */; };
+		93E6965D1E71301A00A3C1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E6965B1E71301A00A3C1CC /* Main.storyboard */; };
+		93E6965F1E71301A00A3C1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E6965E1E71301A00A3C1CC /* Assets.xcassets */; };
+		93E696621E71301B00A3C1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E696601E71301B00A3C1CC /* LaunchScreen.storyboard */; };
+		93E6966D1E71301B00A3C1CC /* Emoji_scrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6966C1E71301B00A3C1CC /* Emoji_scrollViewTests.m */; };
+		93E696781E71301B00A3C1CC /* Emoji_scrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E696771E71301B00A3C1CC /* Emoji_scrollViewUITests.m */; };
+		93E696871E7130CE00A3C1CC /* EmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E696861E7130CE00A3C1CC /* EmojiViewController.m */; };
+		93E696891E7130F200A3C1CC /* leiben.gif in Resources */ = {isa = PBXBuildFile; fileRef = 93E696881E7130F200A3C1CC /* leiben.gif */; };
+		93E6968B1E71310A00A3C1CC /* chepizi.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E6968A1E71310A00A3C1CC /* chepizi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E696691E71301B00A3C1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E696471E71301900A3C1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E6964E1E71301A00A3C1CC;
+			remoteInfo = Emoji_scrollView;
+		};
+		93E696741E71301B00A3C1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E696471E71301900A3C1CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E6964E1E71301A00A3C1CC;
+			remoteInfo = Emoji_scrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD0D839A9239BD896FB02DD /* libPods-Emoji_scrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Emoji_scrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925976F0F1D3FB70CDFCC8EC /* Pods-Emoji_scrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji_scrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji_scrollView/Pods-Emoji_scrollView.release.xcconfig"; sourceTree = "<group>"; };
+		93E6964F1E71301A00A3C1CC /* Emoji_scrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji_scrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E696531E71301A00A3C1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93E696551E71301A00A3C1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93E696561E71301A00A3C1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93E696581E71301A00A3C1CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93E696591E71301A00A3C1CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93E6965C1E71301A00A3C1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93E6965E1E71301A00A3C1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E696611E71301B00A3C1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93E696631E71301B00A3C1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E696681E71301B00A3C1CC /* Emoji_scrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emoji_scrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E6966C1E71301B00A3C1CC /* Emoji_scrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emoji_scrollViewTests.m; sourceTree = "<group>"; };
+		93E6966E1E71301B00A3C1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E696731E71301B00A3C1CC /* Emoji_scrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emoji_scrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E696771E71301B00A3C1CC /* Emoji_scrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emoji_scrollViewUITests.m; sourceTree = "<group>"; };
+		93E696791E71301C00A3C1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E696851E7130CE00A3C1CC /* EmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiViewController.h; sourceTree = "<group>"; };
+		93E696861E7130CE00A3C1CC /* EmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiViewController.m; sourceTree = "<group>"; };
+		93E696881E7130F200A3C1CC /* leiben.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leiben.gif; sourceTree = "<group>"; };
+		93E6968A1E71310A00A3C1CC /* chepizi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chepizi.png; sourceTree = "<group>"; };
+		FBADFE771B6E406B6D66CB47 /* Pods-Emoji_scrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji_scrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji_scrollView/Pods-Emoji_scrollView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E6964C1E71301A00A3C1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F5ACDD61CF0AC179DBCEF /* libPods-Emoji_scrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E696651E71301B00A3C1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E696701E71301B00A3C1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BDFB1D47C0E4A87731A052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBADFE771B6E406B6D66CB47 /* Pods-Emoji_scrollView.debug.xcconfig */,
+				925976F0F1D3FB70CDFCC8EC /* Pods-Emoji_scrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93E696461E71301900A3C1CC = {
+			isa = PBXGroup;
+			children = (
+				93E696511E71301A00A3C1CC /* Emoji_scrollView */,
+				93E6966B1E71301B00A3C1CC /* Emoji_scrollViewTests */,
+				93E696761E71301B00A3C1CC /* Emoji_scrollViewUITests */,
+				93E696501E71301A00A3C1CC /* Products */,
+				55BDFB1D47C0E4A87731A052 /* Pods */,
+				D7ACECA31737B67F858225E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93E696501E71301A00A3C1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E6964F1E71301A00A3C1CC /* Emoji_scrollView.app */,
+				93E696681E71301B00A3C1CC /* Emoji_scrollViewTests.xctest */,
+				93E696731E71301B00A3C1CC /* Emoji_scrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E696511E71301A00A3C1CC /* Emoji_scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				93E6968A1E71310A00A3C1CC /* chepizi.png */,
+				93E696881E7130F200A3C1CC /* leiben.gif */,
+				93E696851E7130CE00A3C1CC /* EmojiViewController.h */,
+				93E696861E7130CE00A3C1CC /* EmojiViewController.m */,
+				93E696551E71301A00A3C1CC /* AppDelegate.h */,
+				93E696561E71301A00A3C1CC /* AppDelegate.m */,
+				93E696581E71301A00A3C1CC /* ViewController.h */,
+				93E696591E71301A00A3C1CC /* ViewController.m */,
+				93E6965B1E71301A00A3C1CC /* Main.storyboard */,
+				93E6965E1E71301A00A3C1CC /* Assets.xcassets */,
+				93E696601E71301B00A3C1CC /* LaunchScreen.storyboard */,
+				93E696631E71301B00A3C1CC /* Info.plist */,
+				93E696521E71301A00A3C1CC /* Supporting Files */,
+			);
+			path = Emoji_scrollView;
+			sourceTree = "<group>";
+		};
+		93E696521E71301A00A3C1CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E696531E71301A00A3C1CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E6966B1E71301B00A3C1CC /* Emoji_scrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				93E6966C1E71301B00A3C1CC /* Emoji_scrollViewTests.m */,
+				93E6966E1E71301B00A3C1CC /* Info.plist */,
+			);
+			path = Emoji_scrollViewTests;
+			sourceTree = "<group>";
+		};
+		93E696761E71301B00A3C1CC /* Emoji_scrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93E696771E71301B00A3C1CC /* Emoji_scrollViewUITests.m */,
+				93E696791E71301C00A3C1CC /* Info.plist */,
+			);
+			path = Emoji_scrollViewUITests;
+			sourceTree = "<group>";
+		};
+		D7ACECA31737B67F858225E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD0D839A9239BD896FB02DD /* libPods-Emoji_scrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E6964E1E71301A00A3C1CC /* Emoji_scrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E6967C1E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollView" */;
+			buildPhases = (
+				1374829BC3E4FC17F2A8B3AA /* [CP] Check Pods Manifest.lock */,
+				93E6964B1E71301A00A3C1CC /* Sources */,
+				93E6964C1E71301A00A3C1CC /* Frameworks */,
+				93E6964D1E71301A00A3C1CC /* Resources */,
+				1A8CA51DC7BC9B9CD46FD10E /* [CP] Embed Pods Frameworks */,
+				145F6F705D163E9BB4FCDA41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emoji_scrollView;
+			productName = Emoji_scrollView;
+			productReference = 93E6964F1E71301A00A3C1CC /* Emoji_scrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93E696671E71301B00A3C1CC /* Emoji_scrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E6967F1E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollViewTests" */;
+			buildPhases = (
+				93E696641E71301B00A3C1CC /* Sources */,
+				93E696651E71301B00A3C1CC /* Frameworks */,
+				93E696661E71301B00A3C1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E6966A1E71301B00A3C1CC /* PBXTargetDependency */,
+			);
+			name = Emoji_scrollViewTests;
+			productName = Emoji_scrollViewTests;
+			productReference = 93E696681E71301B00A3C1CC /* Emoji_scrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93E696721E71301B00A3C1CC /* Emoji_scrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E696821E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollViewUITests" */;
+			buildPhases = (
+				93E6966F1E71301B00A3C1CC /* Sources */,
+				93E696701E71301B00A3C1CC /* Frameworks */,
+				93E696711E71301B00A3C1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E696751E71301B00A3C1CC /* PBXTargetDependency */,
+			);
+			name = Emoji_scrollViewUITests;
+			productName = Emoji_scrollViewUITests;
+			productReference = 93E696731E71301B00A3C1CC /* Emoji_scrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E696471E71301900A3C1CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "zeb－Apple";
+				TargetAttributes = {
+					93E6964E1E71301A00A3C1CC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					93E696671E71301B00A3C1CC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93E6964E1E71301A00A3C1CC;
+					};
+					93E696721E71301B00A3C1CC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93E6964E1E71301A00A3C1CC;
+					};
+				};
+			};
+			buildConfigurationList = 93E6964A1E71301900A3C1CC /* Build configuration list for PBXProject "Emoji_scrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93E696461E71301900A3C1CC;
+			productRefGroup = 93E696501E71301A00A3C1CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E6964E1E71301A00A3C1CC /* Emoji_scrollView */,
+				93E696671E71301B00A3C1CC /* Emoji_scrollViewTests */,
+				93E696721E71301B00A3C1CC /* Emoji_scrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E6964D1E71301A00A3C1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E696621E71301B00A3C1CC /* LaunchScreen.storyboard in Resources */,
+				93E696891E7130F200A3C1CC /* leiben.gif in Resources */,
+				93E6965F1E71301A00A3C1CC /* Assets.xcassets in Resources */,
+				93E6965D1E71301A00A3C1CC /* Main.storyboard in Resources */,
+				93E6968B1E71310A00A3C1CC /* chepizi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E696661E71301B00A3C1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E696711E71301B00A3C1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1374829BC3E4FC17F2A8B3AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		145F6F705D163E9BB4FCDA41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji_scrollView/Pods-Emoji_scrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8CA51DC7BC9B9CD46FD10E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji_scrollView/Pods-Emoji_scrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E6964B1E71301A00A3C1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E6965A1E71301A00A3C1CC /* ViewController.m in Sources */,
+				93E696571E71301A00A3C1CC /* AppDelegate.m in Sources */,
+				93E696541E71301A00A3C1CC /* main.m in Sources */,
+				93E696871E7130CE00A3C1CC /* EmojiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E696641E71301B00A3C1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E6966D1E71301B00A3C1CC /* Emoji_scrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E6966F1E71301B00A3C1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E696781E71301B00A3C1CC /* Emoji_scrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E6966A1E71301B00A3C1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E6964E1E71301A00A3C1CC /* Emoji_scrollView */;
+			targetProxy = 93E696691E71301B00A3C1CC /* PBXContainerItemProxy */;
+		};
+		93E696751E71301B00A3C1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E6964E1E71301A00A3C1CC /* Emoji_scrollView */;
+			targetProxy = 93E696741E71301B00A3C1CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93E6965B1E71301A00A3C1CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E6965C1E71301A00A3C1CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93E696601E71301B00A3C1CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E696611E71301B00A3C1CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93E6967A1E71301C00A3C1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93E6967B1E71301C00A3C1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E6967D1E71301C00A3C1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBADFE771B6E406B6D66CB47 /* Pods-Emoji_scrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emoji_scrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93E6967E1E71301C00A3C1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925976F0F1D3FB70CDFCC8EC /* Pods-Emoji_scrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emoji_scrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93E696801E71301C00A3C1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Emoji_scrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji_scrollView.app/Emoji_scrollView";
+			};
+			name = Debug;
+		};
+		93E696811E71301C00A3C1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Emoji_scrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji_scrollView.app/Emoji_scrollView";
+			};
+			name = Release;
+		};
+		93E696831E71301C00A3C1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Emoji_scrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emoji_scrollView;
+			};
+			name = Debug;
+		};
+		93E696841E71301C00A3C1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Emoji_scrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cssy.YQNet.com.Emoji-scrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emoji_scrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E6964A1E71301900A3C1CC /* Build configuration list for PBXProject "Emoji_scrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E6967A1E71301C00A3C1CC /* Debug */,
+				93E6967B1E71301C00A3C1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E6967C1E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E6967D1E71301C00A3C1CC /* Debug */,
+				93E6967E1E71301C00A3C1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E6967F1E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E696801E71301C00A3C1CC /* Debug */,
+				93E696811E71301C00A3C1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E696821E71301C00A3C1CC /* Build configuration list for PBXNativeTarget "Emoji_scrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E696831E71301C00A3C1CC /* Debug */,
+				93E696841E71301C00A3C1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93E696471E71301900A3C1CC /* Project object */;
+}

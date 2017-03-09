@@ -1,0 +1,6 @@
+target :Emoji_scrollView do
+
+
+pod 'Masonry'
+pod 'YYImage'
+end
